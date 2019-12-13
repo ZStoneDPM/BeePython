@@ -1,17 +1,23 @@
 set virtualenv for your project first
-this works using python3.6
+this gist works using python 3.6
 
 once in virtual env
+#1
 pip install -r requirements.txt
+
+#2
 cookiecutter https://github.com/pybee/briefcase-template
 
 if you upload to pypi it could be turned into a python
 package you get via pip
 
-install http://wixtoolset.org/releases/
-windows wix toolset
+#3 - if not already installed
+open in browser http://wixtoolset.org/releases/
+install (windows via exe) windows wix toolset
 
 python setup.py windows -s
 
-if not finding windows now.. 
-pip install briefcase #again..
+if not finding windows now.. or other <os> -s
+pip install briefcase 
+#again.. and double check toga versions match 
+#as per requirments.txt info
