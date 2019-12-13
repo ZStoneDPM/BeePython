@@ -3,4 +3,7 @@
 cookicutter
 toga==0.3.0.dev15
 #toga version must match version in setup.py
+#after you use the briefcase-template setup you shoould
+#double check the setup.py toga version and uninstall/install
+#accordingly
 briefcase
