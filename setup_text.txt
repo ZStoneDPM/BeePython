@@ -1,0 +1,12 @@
+cookiecutter https://github.com/pybee/briefcase-template
+
+if you upload to pypi it could be turned into a python
+package you get via pip
+
+install http://wixtoolset.org/releases/
+windows wix toolset
+
+python setup.py windows -s
+
+if not finding windows now.. 
+pip install briefcase #again..

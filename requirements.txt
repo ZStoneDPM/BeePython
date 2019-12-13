@@ -1,0 +1,6 @@
+#https://www.youtube.com/watch?reload=9&v=xezYYBL7nk0&t=  
+#14:30
+cookicutter
+toga==0.3.0.dev15
+#toga version must match version in setup.py
+briefcase
